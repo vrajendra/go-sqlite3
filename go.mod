@@ -1,9 +1,7 @@
-module github.com/mattn/go-sqlite3
+module github.com/vrajendra/go-sqlite3
 
 go 1.16
 
 retract (
  [v2.0.0+incompatible, v2.0.6+incompatible] // Accidental; no major changes or features.
 )
-
-replace github.com/mattn/go-sqlite3 => github.com/vrajendra/go-sqlite3
